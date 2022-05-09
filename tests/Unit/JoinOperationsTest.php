@@ -1,9 +1,9 @@
 <?php
 
-namespace Reedware\LaravelRelationJoins\Tests\Unit;
+namespace Halo\LaravelRelationJoins\Tests\Unit;
 
 use Closure;
-use Reedware\LaravelRelationJoins\Tests\Models\EloquentUserModelStub;
+use Halo\LaravelRelationJoins\Tests\Models\EloquentUserModelStub;
 
 class JoinOperationsTest extends TestCase
 {

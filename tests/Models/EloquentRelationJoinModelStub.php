@@ -1,10 +1,10 @@
 <?php
 
-namespace Reedware\LaravelRelationJoins\Tests\Models;
+namespace Halo\LaravelRelationJoins\Tests\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-use Reedware\LaravelRelationJoins\Tests\CustomBuilder;
+use Halo\LaravelRelationJoins\Tests\CustomBuilder;
 
 class EloquentRelationJoinModelStub extends Model
 {

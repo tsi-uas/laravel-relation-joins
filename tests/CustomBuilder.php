@@ -1,6 +1,6 @@
 <?php
 
-namespace Reedware\LaravelRelationJoins\Tests;
+namespace Halo\LaravelRelationJoins\Tests;
 
 use Illuminate\Database\Eloquent\Builder;
 

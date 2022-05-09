@@ -1,6 +1,6 @@
 <?php
 
-namespace Reedware\LaravelRelationJoins;
+namespace Halo\LaravelRelationJoins;
 
 use Illuminate\Database\Eloquent\Builder as Eloquent;
 use Illuminate\Database\Eloquent\Model;

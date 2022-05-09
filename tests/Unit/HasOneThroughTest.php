@@ -1,11 +1,11 @@
 <?php
 
-namespace Reedware\LaravelRelationJoins\Tests\Unit;
+namespace Halo\LaravelRelationJoins\Tests\Unit;
 
 use BadMethodCallException;
 use Closure;
-use Reedware\LaravelRelationJoins\Tests\Models\EloquentSupplierModelStub;
-use Reedware\LaravelRelationJoins\Tests\Models\EloquentUserHistoryModelStub;
+use Halo\LaravelRelationJoins\Tests\Models\EloquentSupplierModelStub;
+use Halo\LaravelRelationJoins\Tests\Models\EloquentUserHistoryModelStub;
 
 class HasOneThroughTest extends TestCase
 {

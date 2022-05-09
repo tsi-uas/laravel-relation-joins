@@ -1,6 +1,6 @@
 <?php
 
-namespace Reedware\LaravelRelationJoins\Tests\Unit;
+namespace Halo\LaravelRelationJoins\Tests\Unit;
 
 use Illuminate\Container\Container;
 use Illuminate\Database\Connection;
@@ -12,9 +12,9 @@ use Illuminate\Database\Query\Processors\Processor;
 use Illuminate\Support\Arr;
 use Mockery as m;
 use PHPUnit\Framework\TestCase as TestBase;
-use Reedware\LaravelRelationJoins\LaravelRelationJoinServiceProvider;
-use Reedware\LaravelRelationJoins\Tests\CustomBuilder;
-use Reedware\LaravelRelationJoins\Tests\Models\EloquentRelationJoinModelStub;
+use Halo\LaravelRelationJoins\LaravelRelationJoinServiceProvider;
+use Halo\LaravelRelationJoins\Tests\CustomBuilder;
+use Halo\LaravelRelationJoins\Tests\Models\EloquentRelationJoinModelStub;
 use RuntimeException;
 
 class TestCase extends TestBase
