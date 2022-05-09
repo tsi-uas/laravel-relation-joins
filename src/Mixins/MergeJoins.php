@@ -1,6 +1,6 @@
 <?php
 
-namespace Reedware\LaravelRelationJoins\Mixins;
+namespace Halo\LaravelRelationJoins\Mixins;
 
 class MergeJoins
 {

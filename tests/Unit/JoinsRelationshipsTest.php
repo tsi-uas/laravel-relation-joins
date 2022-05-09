@@ -1,11 +1,11 @@
 <?php
 
-namespace Reedware\LaravelRelationJoins\Tests\Unit;
+namespace Halo\LaravelRelationJoins\Tests\Unit;
 
 use Closure;
 use Illuminate\Database\Eloquent\Relations\Relation;
-use Reedware\LaravelRelationJoins\Tests\Models\EloquentCountryModelStub;
-use Reedware\LaravelRelationJoins\Tests\Models\EloquentUserModelStub;
+use Halo\LaravelRelationJoins\Tests\Models\EloquentCountryModelStub;
+use Halo\LaravelRelationJoins\Tests\Models\EloquentUserModelStub;
 
 class JoinsRelationshipsTest extends TestCase
 {

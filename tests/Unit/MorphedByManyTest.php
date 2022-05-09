@@ -1,10 +1,10 @@
 <?php
 
-namespace Reedware\LaravelRelationJoins\Tests\Unit;
+namespace Halo\LaravelRelationJoins\Tests\Unit;
 
 use Closure;
-use Reedware\LaravelRelationJoins\Tests\Models\EloquentPostModelStub;
-use Reedware\LaravelRelationJoins\Tests\Models\EloquentTagModelStub;
+use Halo\LaravelRelationJoins\Tests\Models\EloquentPostModelStub;
+use Halo\LaravelRelationJoins\Tests\Models\EloquentTagModelStub;
 
 class MorphedByManyTest extends TestCase
 {

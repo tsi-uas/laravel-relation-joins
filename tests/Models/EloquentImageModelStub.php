@@ -1,6 +1,6 @@
 <?php
 
-namespace Reedware\LaravelRelationJoins\Tests\Models;
+namespace Halo\LaravelRelationJoins\Tests\Models;
 
 class EloquentImageModelStub extends EloquentRelationJoinModelStub
 {

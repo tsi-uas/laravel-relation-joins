@@ -1,9 +1,9 @@
 <?php
 
-namespace Reedware\LaravelRelationJoins\Tests\Unit;
+namespace Halo\LaravelRelationJoins\Tests\Unit;
 
 use Closure;
-use Reedware\LaravelRelationJoins\Tests\Models\EloquentPostModelStub;
+use Halo\LaravelRelationJoins\Tests\Models\EloquentPostModelStub;
 
 class MorphManyTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Reedware\LaravelRelationJoins;
+namespace Halo\LaravelRelationJoins;
 
 class MorphTypes
 {

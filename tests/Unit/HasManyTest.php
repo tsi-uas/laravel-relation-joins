@@ -1,13 +1,13 @@
 <?php
 
-namespace Reedware\LaravelRelationJoins\Tests\Unit;
+namespace Halo\LaravelRelationJoins\Tests\Unit;
 
 use Closure;
-use Reedware\LaravelRelationJoins\Tests\Models\EloquentCommentModelStub;
-use Reedware\LaravelRelationJoins\Tests\Models\EloquentCountryModelStub;
-use Reedware\LaravelRelationJoins\Tests\Models\EloquentPostModelStub;
-use Reedware\LaravelRelationJoins\Tests\Models\EloquentUserModelStub;
-use Reedware\LaravelRelationJoins\Tests\Models\EloquentVideoModelStub;
+use Halo\LaravelRelationJoins\Tests\Models\EloquentCommentModelStub;
+use Halo\LaravelRelationJoins\Tests\Models\EloquentCountryModelStub;
+use Halo\LaravelRelationJoins\Tests\Models\EloquentPostModelStub;
+use Halo\LaravelRelationJoins\Tests\Models\EloquentUserModelStub;
+use Halo\LaravelRelationJoins\Tests\Models\EloquentVideoModelStub;
 
 class HasManyTest extends TestCase
 {

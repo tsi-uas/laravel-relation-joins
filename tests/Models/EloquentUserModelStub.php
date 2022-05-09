@@ -1,8 +1,8 @@
 <?php
 
-namespace Reedware\LaravelRelationJoins\Tests\Models;
+namespace Halo\LaravelRelationJoins\Tests\Models;
 
-use Reedware\LaravelRelationJoins\Tests\CustomRelation;
+use Halo\LaravelRelationJoins\Tests\CustomRelation;
 
 class EloquentUserModelStub extends EloquentRelationJoinModelStub
 {

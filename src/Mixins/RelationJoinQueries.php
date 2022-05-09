@@ -1,9 +1,9 @@
 <?php
 
-namespace Reedware\LaravelRelationJoins\Mixins;
+namespace Halo\LaravelRelationJoins\Mixins;
 
 use Illuminate\Database\Eloquent\Builder;
-use Reedware\LaravelRelationJoins\RelationJoinQuery;
+use Halo\LaravelRelationJoins\RelationJoinQuery;
 
 class RelationJoinQueries
 {

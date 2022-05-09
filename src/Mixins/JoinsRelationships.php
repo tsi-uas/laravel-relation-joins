@@ -1,6 +1,6 @@
 <?php
 
-namespace Reedware\LaravelRelationJoins\Mixins;
+namespace Halo\LaravelRelationJoins\Mixins;
 
 use Closure;
 use Illuminate\Support\Arr;
@@ -9,8 +9,8 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Database\Query\JoinClause;
 use LogicException;
-use Reedware\LaravelRelationJoins\EloquentJoinClause;
-use Reedware\LaravelRelationJoins\MorphTypes;
+use Halo\LaravelRelationJoins\EloquentJoinClause;
+use Halo\LaravelRelationJoins\MorphTypes;
 use RuntimeException;
 
 class JoinsRelationships
@@ -116,7 +116,7 @@ class JoinsRelationships
          * @param  \Closure|array|null                        $callbacks
          * @param  string                                     $type
          * @param  bool                                       $through
-         * @param  \Reedware\LaravelRelationJoins\MorphTypes  $morphTypes
+         * @param  \Halo\LaravelRelationJoins\MorphTypes  $morphTypes
          *
          * @return \Illuminate\Database\Eloquent\Builder|static
          */
@@ -370,7 +370,7 @@ class JoinsRelationships
          * Description.
          *
          * @param  \Illuminate\Database\Eloquent\Relations\MorphTo  $relation
-         * @param  \Reedware\LaravelRelationJoins\MorphTypes        $morphTypes
+         * @param  \Halo\LaravelRelationJoins\MorphTypes        $morphTypes
          * @param  \Illuminate\Database\Eloquent\Builder            $relatedQuery
          *
          * @return array

@@ -1,5 +1,5 @@
 {
-    "name": "reedware/laravel-relation-joins",
+    "name": "halo/laravel-relation-joins",
     "description": "Adds the ability to join on a relationship by name.",
     "keywords": ["laravel", "relation", "join", "eloquent", "query"],
     "license": "MIT",
@@ -23,18 +23,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Reedware\\LaravelRelationJoins\\": "src/"
+            "Halo\\LaravelRelationJoins\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Reedware\\LaravelRelationJoins\\Tests\\": "tests/"
+            "Halo\\LaravelRelationJoins\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Reedware\\LaravelRelationJoins\\LaravelRelationJoinServiceProvider"
+                "Halo\\LaravelRelationJoins\\LaravelRelationJoinServiceProvider"
             ]
         }
     }
